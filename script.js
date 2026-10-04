@@ -60,7 +60,7 @@ form.addEventListener('submit', event => {
   if (!form.reportValidity()) return;
   const company = form.elements.empresa.value.trim();
   const message = [
-    'Hola REPEL, quisiera solicitar una cotización.',
+    'Hola, REPEL. Quisiera solicitar una cotización.',
     '',
     'Nombre: ' + name.value,
     ...(company ? ['Empresa: ' + company] : []),
